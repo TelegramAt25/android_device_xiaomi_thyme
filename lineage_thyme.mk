@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from thyme device
 $(call inherit-product, device/xiaomi/thyme/device.mk)
 
+# include private signing keys
+-include vendor/niigo-priv/keys/keys.mk
+
 # AxionAOSP flags start
 # Camera
 AXION_CAMERA_REAR_INFO := 108,13,2,2
