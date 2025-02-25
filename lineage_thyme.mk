@@ -14,6 +14,18 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from thyme device
 $(call inherit-product, device/xiaomi/thyme/device.mk)
 
+# AxionAOSP flags start
+# Camera
+AXION_CAMERA_REAR_INFO := 108,13,2,2
+AXION_CAMERA_FRONT_INFO := 20
+
+# Processor
+AXION_PROCESSOR := Qualcomm_Snapdragon_870
+
+# Maintainer
+AXION_MAINTAINER := fukiame
+# AxionAOSP flags end
+
 PRODUCT_NAME := lineage_thyme
 PRODUCT_DEVICE := thyme
 PRODUCT_MANUFACTURER := Xiaomi
