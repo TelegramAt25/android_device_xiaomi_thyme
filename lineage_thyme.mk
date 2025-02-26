@@ -21,6 +21,7 @@ $(call inherit-product, device/xiaomi/thyme/device.mk)
 # Camera
 AXION_CAMERA_REAR_INFO := 108,13,2,2
 AXION_CAMERA_FRONT_INFO := 20
+PRODUCT_NO_CAMERA := false
 
 # Processor
 AXION_PROCESSOR := Qualcomm_Snapdragon_870
