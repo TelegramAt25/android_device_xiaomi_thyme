@@ -17,6 +17,9 @@ $(call inherit-product, device/xiaomi/thyme/device.mk)
 # include private signing keys
 -include vendor/niigo-priv/keys/keys.mk
 
+# always append time of day
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
 # AxionAOSP flags start
 # Camera
 AXION_CAMERA_REAR_INFO := 108,13,2,2
