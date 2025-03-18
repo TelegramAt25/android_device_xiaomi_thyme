@@ -18,9 +18,6 @@ TARGET_SCREEN_DENSITY := 440
 # Device VINTF
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Init
-TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_thyme
-
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/thyme.config
 
