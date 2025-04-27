@@ -9,6 +9,9 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/thyme
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
