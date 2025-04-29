@@ -24,6 +24,10 @@ AXION_PROCESSOR := Qualcomm_Snapdragon_870
 
 # Maintainer
 AXION_MAINTAINER := fukiame
+
+# LOS prebuilts inclusion
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
 # AxionAOSP flags end
 
 PRODUCT_NAME := lineage_thyme
